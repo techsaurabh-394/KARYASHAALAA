@@ -1,0 +1,43 @@
+body {
+    font-family: "Montserrat";
+    background-color: rgb(202, 240, 215);
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-block-start: 0;
+    padding: 5px;
+    word-spacing: 0.2rem;
+}
+
+.bar {
+    width: 300px;
+    background-color: antiquewhite;
+    border-width: 1px;
+    border-radius: 2.5px;
+    height: 18px;
+    font-family: "Ubuntu";
+    font-size: 0.8rem;
+}
+
+.t {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(17, 65, 65);
+}
+
+.head {
+    background-color: rgb(17, 65, 65);
+    color: aliceblue;
+    text-align: center;
+}
+
+.sub {
+    width: 140px;
+    height: 30px;
+}
+
+.s {
+    text-align: center;
+}

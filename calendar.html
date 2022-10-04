@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <!-- Add the evo-calendar.css for styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.midnight-blue.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.orange-coral.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.royal-navy.css">
+    <link rel="stylesheet" href="calstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id="navBar">
+    <a href="#home" class="active" id="navBar2" style="font-size: 2rem;">Calendar</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <div class="navButton" id="default">default</div>
+        <div class="navButton" id="dark">dark</div>
+        <div class="navButton" id="blue">blue</div>
+        <div class="navButton" id="orange">orange</div>
+
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<body>
+    <!-- <div class="my-flexrow">
+        <div class="circleButton" id="default"></div>
+        <div class="circleButton" id="dark"></div>
+        <div class="circleButton" id="blue"></div>
+        <div class="circleButton" id="orange"></div>
+    </div> -->
+
+    <div id="calendar"></div>
+
+    <div class="my-flexcontainer">
+        <button class="button" id="addEvent" onclick="addEvent()"> Add a Calender Event</button>
+        <button class="button" id="removeStuff" onclick="removeEvent()"> Remove a Calender Event</button>
+    </div>
+    <!-- Add jQuery library (required) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <!-- Add the evo-calendar.js for.. obviously, functionality! -->
+    <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
+    <script src="main.js"></script>
+    <div class="my-event" id="tanush"></div>
+</body>
+
+
+</html>

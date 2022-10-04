@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KaryaShaala-Events</title>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+
+</head>
+
+<style>
+    body {
+        font-family: "Montserrat";
+        background-color: rgb(214, 219, 236);
+    }
+    
+    h1 {
+        font-family: "Montserrat";
+        letter-spacing: 2px;
+        margin: 50px;
+    }
+    
+    th {
+        background-color: rgb(93, 102, 115);
+        color: antiquewhite;
+        letter-spacing: 1px;
+        border: none;
+    }
+    
+    hr {
+        background-color: black;
+        border: none;
+        height: 1px;
+    }
+    
+    button {
+        border-radius: 3px;
+    }
+    
+    .light-table-filter {
+        width: 100%;
+    }
+    
+    .select-table-filter {
+        float: left;
+    }
+    
+    .selec-table-filter {
+        float: right;
+    }
+    
+    .sel-table-filter {
+        float: center;
+    }
+    
+    section {
+        padding: auto;
+    }
+</style>
+
+<body>
+    <section class="container">
+        <h1>KaryaShaala</h1>
+        <hr>
+        <br>
+
+        <h2 style="letter-spacing: 1px;">Events</h2>
+
+        <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search" />
+
+
+        <select type="search" class="select-table-filter" data-table="order-table">
+             <option value="">Domain</option>
+             <option value="Blockchain">Blockchain</option>
+             <option value="Artificial Intelligence">Artificial Intelligence</option>
+             <option value="Machine Learning">Machine Learning</option>
+             <option value="Medical">Medical</option>
+             <option value="Sports">Sports</option>
+             <option value="Cultural">Cultural</option>
+             <option value="Robotics">Robotics</option>
+        <select>
+
+        <select style="float: right; width: 280px;" type="search" class="select-table-filter" data-table="order-table">
+             <option value="">State</option>
+             <option value="Andhra Pradesh">Andhra Pradesh</option>
+             <option value="Uttar Pradesh">Uttar Pradesh</option>
+             <option value="Uttarakhand">Uttarakhand</option>
+             <option value="Delhi">Delhi</option>
+             <option value="Maharashtra">Maharashtra</option>
+        <select>
+        
+          <select style="float: center; width: 300px;" type="search" class="select-table-filter" data-table="order-table">
+            <option value="">City</option>
+             <option value="Meerut">Meerut</option>
+             <option value="Ghaziabad">Ghaziabad</option>
+             <option value="Razam">Razam</option>
+             <option value="Delhi">Delhi</option>
+          <select>  
+
+        <table class="order-table">
+          <thead>
+            <tr>
+              <th style="width: 0;">S.No.</th>
+              <th>Event Name</th>
+              <th>Institute</th>
+              <th>Domain</th>
+              <th>Date</th>
+              <th>City</th>
+              <th>Enroll</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>Emergence of Deep Learning in Blockchain</td>
+              <td>ABESIT</td>
+              <td>Blockchain</td>
+              <td>19/9/2022</td>
+              <td>Ghaziabad,Uttar Pradesh</td>
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Advance Management Skills</td>
+              <td>AKGEC</td>
+              <td>Management</td>
+              <td>22/9/2022</td>
+              <td>Noida, Uttar Pradesh</td>
+              
+                
+              <td><button><a href="login1/public/login.html"></a>Enroll</a></button></td>
+              
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>Poetry Competition</td>
+              <td>Stadium</td>
+              <td>Cultural</td>
+              <td>24/9/2022</td>
+              <td>Dehradun,Uttarakhand</td>
+              
+             
+              <td><button>Enroll</button></td>
+
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>National Boys Badminton Meet</td>
+              <td>Delhi Public School</td>
+              <td>Sports</td>
+              <td>02/10/2022</td>
+              <td>Guwahati, Assam</td>
+             
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>Counselling on Medical field</td>
+              <td>AIIMS</td>
+              <td>Medical</td>
+              <td>10/10/2022</td>
+              <td>Chennai, Tamil Nadu</td>
+              
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>Surgical Strikes and Strategical Planning</td>
+              <td>National Army Museum</td>
+              <td>Military and Defense</td>
+              <td>19/10/2022</td>
+              <td>New Delhi</td>
+             
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>Importance of Critical Thinking</td>
+              <td>ABESIT</td>
+              <td>Soft Skills</td>
+              <td>23/10/2022</td>
+              <td>Ghaziabad,Uttar Pradesh</td>
+              
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>Personality Development and Public Speaking</td>
+              <td>GMRIT</td>
+              <td>Soft Skills</td>
+              <td>27/10/2022</td>
+              <td>Razam, Andhra Pradesh</td>
+              
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>Talent Hunt Competition</td>
+              <td>GMRIT</td>
+              <td>Culture</td>
+              <td>29/10/2022</td>
+              <td>Razam, Andhra Pradesh</td>
+             
+              <td><button>Enroll</button></td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>Conference on Advanced Robotics</td>
+              <td>GMRIT</td>
+              <td>Robotics</td>
+              <td>02/11/2022</td>
+              <td>Razam, Andhra Pradesh</td>
+              
+              <td><button>Enroll</button></td>
+            </tr>
+            
+
+
+          </tbody>
+        </table>
+
+  </section>
+
+</body>
+
+</html>

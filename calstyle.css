@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+
+.topnav #myLinks {
+    display: none;
+}
+
+
+/* Style navigation menu links */
+
+.topnav div {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+
+/* Style the hamburger menu */
+
+.topnav div.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* Add a grey background color on mouse-over */
+
+.topnav .navButton:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Style the active link (or home/logo) */
+
+.active {
+    background-color: rgb(135, 115, 193);
+    color: white;
+    font-family: Ubuntu;
+    font-size: 6rem;
+}
+
+.my-flexcontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: center;
+    padding-top: 6vh;
+    margin-bottom: 5vh;
+}
+
+.button {
+    background-color: #8773C1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    width: 15em;
+    margin-bottom: 2vh;
+}
+
+#addEvent.button {
+    color: white;
+}
+
+.my-flexrow {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.circleButton {
+    width: 50px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+#blue.circleButton {
+    background-color: rgb(0, 173, 181);
+}
+
+#orange.circleButton {
+    background-color: rgba(255, 153, 102, 0.65);
+}
+
+#default.circleButton {
+    background-color: rgb(135, 115, 193);
+}
+
+#dark.circleButton {
+    background-color: black;
+}
